@@ -1,4 +1,4 @@
-# GxE-of-Smoking-Initiation
+# Sex and generation shape the genetic architecture of smoking initiation in a multiancestry gene-environment interaction study 
 
 ## Overview
 This repository contains code for analyses examining how the genetic architecture of smoking initiation (SI) varies across sex and generation. Using genetic association data from up to 4.9 million individuals across four ancestry groups, the study investigates how genetic influences on smoking initiation vary across biological and macrosocial contexts.
