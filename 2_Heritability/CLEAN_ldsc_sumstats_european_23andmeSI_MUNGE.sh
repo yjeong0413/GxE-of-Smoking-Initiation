@@ -20,7 +20,7 @@ MAF_thr=0.01 # MAF threshold.
 echo " "
 #Set directories
 echo "Define directories."
-workspace_dir="/depot/rche/data/datasets/23andme/scratch/jeong212/smoking_GxE_interactions_study_2024/WORKPLACE/ldsc"
+workspace_dir="/YOUR PATH HERE/"
 root_dir="${workspace_dir}/${ANCESTRY}/CLEAN"
 dest_dir="${workspace_dir}/${ANCESTRY}/CLEAN/GWAS_QC"
 

@@ -18,7 +18,7 @@ ANCESTRY="european"
 echo " "
 # 2) Define directories
 echo "Define directories."
-root_dir=/depot/rche/data/datasets/23andme/scratch/jeong212/smoking_GxE_interactions_study_2024/WORKPLACE/ldsc/${ANCESTRY}
+root_dir=/YOUR PATH HERE/${ANCESTRY}
 dest_dir=${root_dir}/CLEAN/GWAS_QC
 output_raw_dir=${dest_dir}/Heritability/raw
 output_liability_dir=${dest_dir}//Heritability/liability

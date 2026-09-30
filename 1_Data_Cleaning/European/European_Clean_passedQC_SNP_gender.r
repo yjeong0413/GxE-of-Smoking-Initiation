@@ -11,7 +11,7 @@ cat("Set ancestries\n")
 ANCESTRY="european"
 
 cat("Set directories\n")
-start_dir="/depot/rche/data/datasets/23andme/scratch/jeong212/smoking_GxE_interactions_study_2024"
+start_dir="/YOUR PATH HERE/"
 snp_dir=paste0(start_dir,"/v10.2_annotation_files/",ANCESTRY,"_ac45")
 sumstat_dir=paste0(start_dir,"/",ANCESTRY)
 root_dir=paste0(start_dir,"/WORKPLACE/ldsc/",ANCESTRY,"/CLEAN")

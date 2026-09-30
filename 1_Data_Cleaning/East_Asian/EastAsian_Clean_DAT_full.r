@@ -11,10 +11,10 @@ cat("\nSet ancestry.\n")
 ANCESTRY="east_asian"
 
 cat("\nSet directories.\n")
-snp_dir=paste0("/depot/rche/data/datasets/23andme/scratch/jeong212/smoking_GxE_interactions_study_2024/v10.2_annotation_files/",ANCESTRY,"_ac45")
-sumstat_dir=paste0("/depot/rche/data/datasets/23andme/scratch/jeong212/smoking_GxE_interactions_study_2024/",ANCESTRY)
-root_dir=paste0("/depot/rche/data/datasets/23andme/scratch/jeong212/smoking_GxE_interactions_study_2024/WORKPLACE/ldsc/",ANCESTRY,"/CLEAN")
-dest_dir=paste0("/depot/rche/data/datasets/23andme/scratch/jeong212/smoking_GxE_interactions_study_2024/WORKPLACE/ldsc/",ANCESTRY,"/CLEAN/GWAS_QC")
+snp_dir=paste0("/YOUR PATH HERE/v10.2_annotation_files/",ANCESTRY,"_ac45")
+sumstat_dir=paste0("/YOUR PATH HERE/",ANCESTRY)
+root_dir=paste0("/YOUR PATH HERE/",ANCESTRY,"/CLEAN")
+dest_dir=paste0("/YOUR PATH HERE/",ANCESTRY,"/CLEAN/GWAS_QC")
 cat("\n-------------------------------------------------------------------------------\n")
 
 

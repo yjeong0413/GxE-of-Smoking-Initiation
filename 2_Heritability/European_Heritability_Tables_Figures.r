@@ -12,7 +12,7 @@ ANCESTRY="european"
 
 # 1) Define directories
 cat("Set directory\n")
-root_dir=paste0("/depot/rche/data/datasets/23andme/scratch/jeong212/smoking_GxE_interactions_study_2024/WORKPLACE/ldsc/",ANCESTRY,"/CLEAN/GWAS_QC")
+root_dir=paste0("/YOUR PATH HERE/",ANCESTRY,"/CLEAN/GWAS_QC")
 results_dir=paste0(root_dir,"/Heritability/raw")
 results_dir_tables=paste0(results_dir,"/Tables")
 results_dir_figures=paste0(results_dir,"/Figures")

@@ -23,7 +23,7 @@ GWAS="NEALE_v2"
 
 #Set directories
 echo "Define directories."
-root_dir="/depot/rche/data/datasets/23andme/scratch/jeong212/smoking_GxE_interactions_study_2024/WORKPLACE/ldsc"
+root_dir="/YOUR PATH HERE/"
 workspace_dir="${root_dir}/Other_Sumstats/${PHENOTYPE}"
 echo "Done."
 

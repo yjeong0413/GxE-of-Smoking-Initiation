@@ -1,0 +1,33 @@
+# Example configuration for the meta-locus fine-mapping workflow.
+# Replace all paths with local/project paths before running.
+
+project_dir: /path/to/project
+meta_base: /path/to/project/outputs/meta_locus
+
+inputs:
+  manifest: /path/to/config/manifest.tsv
+  variant_map_dir: /path/to/variant_maps
+  pgen_dir: /path/to/1000G_GRCh38_pgen
+  sex_loci_hg38: /path/to/sex_loci_main_and_moderated.hg38.tsv
+  generation_loci_hg38: /path/to/generation_loci_main_and_moderated.hg38.tsv
+  meta_locus_mapping: /path/to/sex_generation_original_loci_to_meta_loci_mapping.tsv
+  meta_source_summary: /path/to/meta_source_summary.csv
+  ld_weights: /path/to/config/ld_weights.tsv
+
+scripts:
+  harmonize_metal: scripts/01_harmonize_metal_meta.py
+  extract_locus_sumstats: scripts/03_extract_locus_sumstats_metal.py
+  susie_slurm: bash/run_weightedLD_susie_metal_array.slurm
+  susie_rscript: scripts/run_susie_metal_weighted_ld_one_locus.R
+
+analyses:
+  - sex_female_meta
+  - sex_male_meta
+  - generation1_meta
+  - generation2_meta
+  - generation3_meta
+  - generation4_meta
+
+pip_threshold: 0.8
+buffer_bp: 400000
+metal_mode: meta_locus_400kb

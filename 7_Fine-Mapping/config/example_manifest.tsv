@@ -1,0 +1,7 @@
+analysis_id	gwas_file
+sex_female_meta	/path/to/METAL_cross_ancestry_female.txt
+sex_male_meta	/path/to/METAL_cross_ancestry_male.txt
+generation1_meta	/path/to/METAL_cross_ancestry_generation1.txt
+generation2_meta	/path/to/METAL_cross_ancestry_generation2.txt
+generation3_meta	/path/to/METAL_cross_ancestry_generation3.txt
+generation4_meta	/path/to/METAL_cross_ancestry_generation4.txt
