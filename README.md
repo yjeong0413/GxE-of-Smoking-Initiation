@@ -17,5 +17,5 @@ This repository does not contain plug-and-play code. The code is provided to doc
 Please reach out to jeong212@purdue.edu if you have any questions about the code.
 
 ## Citation
-"Sex and generation shape the genetic architecture of smoking initiation in a multiancestry gene-environment interaction study."
+"Sex and generation shape the genetic architecture of smoking initiation in a multiancestry gene-environment interaction study", Yeongmi Jeong, Sarayna Arirangan, Evelina T. Akimova, Katherine N. Thompson, Rafael Geurgas, Jiachen Liu, Aahan Bajpai, Kathryn Fiuza Malerbi, Katelyn Kukar Bond, Julie M. Granka, Barry Hicks, David A. Hinds, Robert K. Bell, 23andMe Research Team, Geyu Zhou, Boran Gao, Mehgan Zacher, Andrew D. Grotzinger, Andrea Ganna, Michel G. Nivard, Brad Verhulst, and Robbee Wedow.
 
