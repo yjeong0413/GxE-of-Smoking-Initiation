@@ -16,3 +16,6 @@ This repository does not contain plug-and-play code. The code is provided to doc
 ## Contact
 Please reach out to jeong212@purdue.edu if you have any questions about the code.
 
+## Citation
+"Sex and generation shape the genetic architecture of smoking initiation in a multiancestry gene-environment interaction study."
+
